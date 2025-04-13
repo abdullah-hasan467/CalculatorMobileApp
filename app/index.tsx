@@ -48,6 +48,7 @@ export default function Calculator() {
           <View key={Index} style={styles.buttonRow}>
             {button.map((btn) => (
               <TouchableOpacity
+              
                 key={btn}
                 style={styles.button}
                 onPress={() => handlePress(btn)}
